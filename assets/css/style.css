@@ -83,7 +83,13 @@ nav {
     align-items: center;
 }
 .cont_principal {}
-.post_container {}
+.post_container {
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 7px;
+    color: #626262;
+    margin: 20px auto;
+}
 .user_profile {
     display: flex;
     align-items: center;
@@ -94,11 +100,29 @@ nav {
     border-radius: 50%;
 }
 .user_profile div {}
-.user_profile div p{}
+.user_profile div p{
+    font-weight: 500;
+    color: #626262;
+}
 
-.post_input_container {}
-.post_input_container textarea{}
-.add_post_icons {}
+.post_input_container {
+    padding-left: 55px;
+    padding-top: 20px;
+}
+.post_input_container textarea{
+    width: 90%;
+    height: 70px;
+    border: none;
+    outline: none;
+    resize: none;
+    background-color: transparent;
+    box-shadow: 0px 1px 0px #e5e5e5;
+    border-radius: 10px;
+}
+.add_post_icons {
+    display: flex;
+    margin-top: 10px;
+}
 .add_post_icons a {}
 .add_post_icons a img {}
 
