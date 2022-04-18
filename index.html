@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SocialBook</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <nav>
 
-        <div>
+        <div class="nav_left">
             <img src="./assets/img/logo.png" alt="Logo">
 
             <ul>
@@ -28,33 +29,34 @@
 
         </div>
 
-        <div>
-            <div>
+        <div class="nav_right">
+            <div class="serch_box">
                 <img src="./assets/img/search.png" alt="">
                 <input type="text" placeholder="Pesquisar">
             </div>
 
-            <div>
+            <div class="nav_user_icon">
                 <img src="./assets/img/perfil.jpeg" alt="">
             </div>
         </div>
 
     </nav>
 
-    <main>
-        <section>
+    <main class="container">
+        <section class="cont_principal">
 
             <!--Primeira parte com perfil e area de postagem-->
-            <div>
-                <div>
+            <div class="post_container">
+                <div class="user_profile">
                     <img src="./assets/img/perfil.jpeg" alt="">
-                    <p>Nicolas Fernando</p>
+                    <div><p>Nicolas Fernando</p></div>
+                    
                 </div>
 
-                <div>
+                <div class="post_input_container">
                     <textarea rows="3" placeholder="No que você está pensando, Nicolas?"></textarea>
 
-                    <div>
+                    <div class="add_post_icons">
                         <a href="">
                             <img src="./assets/img/live-video.png" alt="">
                             Vídeo ao Vivo
