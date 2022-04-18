@@ -93,11 +93,13 @@ nav {
 .user_profile {
     display: flex;
     align-items: center;
+    padding: 18px;
 }
 .user_profile img {
     width: 45px;
     height: 45px;
-    border-radius: 50%;
+    border-radius: 10px;
+    margin-right: 10px;
 }
 .user_profile div {}
 .user_profile div p{
@@ -123,8 +125,22 @@ nav {
     display: flex;
     margin-top: 10px;
 }
-.add_post_icons a {}
-.add_post_icons a img {}
+.add_post_icons a {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    color: #626262;
+    font-size: 12px;
+    box-shadow: 0 2px 2px #e5e5e5;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.add_post_icons a img {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+}
 
 
 
