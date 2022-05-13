@@ -32,13 +32,13 @@ function createProfileRow() {
     userProfile.classList.add("user_profile")
 
     const img = document.createElement("img")
-    img.src = "./assets/img/perfil.jpeg"
+    img.src = "./assets/img/member-3.png"
 
     const info = document.createElement("div")
     const usuario = document.createElement("p")
     const span = document.createElement("span")
 
-    usuario.innerText ="Nicolas Fernando"
+    usuario.innerText ="Paula Bennett"
     span.innerText= `${dia} de ${mes} às ${hr}:${min}`
 
     info.append(usuario , span)
