@@ -48,6 +48,32 @@ nav {
     display: flex;
     align-items: center;
 }
+.menu.show {
+    display: none;
+}
+
+
+.menu {
+    opacity: 1;
+    visibility: visible;
+
+    position: fixed;
+    top: 6.5rem;
+    right: 1.2rem;
+
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 1rem;
+}
+.menu ul li {
+    padding: 0.8rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+
+    border-bottom: 1px solid blue;
+    margin-bottom: 1rem;
+}
+
 .serch_box {
     background-color: #efefef;
     width: 28rem;
@@ -75,6 +101,8 @@ nav {
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
+
+    cursor: pointer;
 }
 
 /*Menu*/

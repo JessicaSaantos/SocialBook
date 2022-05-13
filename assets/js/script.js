@@ -144,3 +144,9 @@ function publicar () {
 
         postInput.value = ""
 }
+
+function onMenu () {
+    
+    const menu =document.querySelector('.menu')
+    menu.classList.toggle('show')
+}
