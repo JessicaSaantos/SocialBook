@@ -127,15 +127,20 @@ function createPostIcons() {
  /*=========================CAPTANDO A MENSAGEM DO USUARIO PARA CRIAR O POST=========================================*/
 
 const postInput = document.querySelector('#post_input')
-postInput.addEventListener('keydown' , function(evento){
+const btn = document.querySelector('#btn')
+btn.addEventListener('click' , publicar )
+postInput.addEventListener('keydown' , function (evento){
     //evento.code for igual a "Enter"
     //evento.code for igual a "NumpadEnter" terá que criar um post
 
-    if (evento.code === "Enter" || evento.code === "NumpadEnter") {
-        const msgUsuario = postInput.value
-        createPostContainer(msgUsuario)
-
-        postInput.value = ""
+    if (evento.code === "Enter" || evento.code === "NumpadEnter" ) {
+        publicar()
     }
 })
 
+function publicar () {
+    const msgUsuario = postInput.value
+        createPostContainer(msgUsuario)
+
+        postInput.value = ""
+}

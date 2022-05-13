@@ -127,6 +127,26 @@ nav {
     box-shadow: 0px 1px 0px #e5e5e5;
     border-radius: 10px;
 }
+.formulario {
+    text-align: right;
+}
+.formulario input {
+    background-color: #1876f2;
+    color: white;
+    padding: 1rem 2.5rem;
+    border: none;
+    border-radius: 2.8rem;
+    font-size: 1.6rem;
+    -moz-transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    transition: all 0.1s;
+    margin: 0 2.5rem;
+}
+
+.formulario input:hover {
+    background-color: #211df2;
+    cursor: pointer;
+}
 .add_post_icons {
     display: flex;
     margin-top: 1rem;
@@ -217,8 +237,6 @@ nav {
 }
 @media (max-width: 640px) {
     .serch_box {
-        opacity: 0;
-        visibility: hidden;
         display: none;
     }
     .post_input_container {
@@ -229,7 +247,26 @@ nav {
         padding: 0.8rem;
     }
 }
-
+    @media (max-width: 460px) {
+        
+        .add_post_icons a {
+           display: inline-block;
+        }
+        .nav_left ul {
+            display: none;
+        }
+        .post_row span {
+            font-size: 1.2rem;
+            margin-right: 1.2rem;
+        }
+        .atividade_icons div img {
+            width: 1.5rem;
+            height: 5.5rem;
+        }
+        .atividade_icons {
+            margin-left: 1.5rem;
+        }
+}
 
 
 
