@@ -12,4 +12,30 @@ Foi interessante também trabalhar a divisão de tarefas para cada funcionalidad
 - CSS
 - JavaScript
 
+### O Projeto
+
+#### Estrutura de arquivos
+
+* README.md
+* index.html
+* /assets
+    - /css
+        - style.css
+    - /img
+    - /js
+        - script.js
+
+### Status do Projeto: 
+*Concluído* ✔️
+Objetivo principal do projeto está finalizado. Mas outras funcionalidades poderão ser adicionadas ao SocialBook.
+
+**Possíveis funcionalidades:**
+ - [x] Interface Principal
+ - [x] Postagem da mensagem escrita
+ - [x] Responsividade
+ - [x] Pequeno menu interativo 
+ - [ ] Abrir o chat
+ - [ ] Postagem de imagens e vídeos 
+
+
 
